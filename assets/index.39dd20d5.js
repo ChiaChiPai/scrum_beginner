@@ -2,7 +2,7 @@
   * pinia v2.0.24
   * (c) 2022 Eduardo San Martin Morote
   * @license MIT
-  */const Bp=Symbol();var Hl;(function(t){t.direct="direct",t.patchObject="patch object",t.patchFunction="patch function"})(Hl||(Hl={}));function Fp(){const t=kd(!0),e=t.run(()=>xe({}));let n=[],i=[];const r=ka({install(s){r._a=s,s.provide(Bp,r),s.config.globalProperties.$pinia=r,i.forEach(o=>n.push(o)),i=[]},use(s){return!this._a&&!Np?i.push(s):n.push(s),this},_p:n,_a:null,_e:t,_s:new Map,state:e});return r}const pi=(t,e)=>{const n=t.__vccOpts||t;for(const[i,r]of e)n[i]=r;return n},Lp={},zp={class:"bg-primary w-[75vw] h-[53.33333vw] max-h-screen fixed left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden"};function Gp(t,e){const n=hi("RouterView");return Se(),Be("section",zp,[W(n)])}const Vp=pi(Lp,[["render",Gp]]);/*!
+  */const Bp=Symbol();var Hl;(function(t){t.direct="direct",t.patchObject="patch object",t.patchFunction="patch function"})(Hl||(Hl={}));function Fp(){const t=kd(!0),e=t.run(()=>xe({}));let n=[],i=[];const r=ka({install(s){r._a=s,s.provide(Bp,r),s.config.globalProperties.$pinia=r,i.forEach(o=>n.push(o)),i=[]},use(s){return!this._a&&!Np?i.push(s):n.push(s),this},_p:n,_a:null,_e:t,_s:new Map,state:e});return r}const pi=(t,e)=>{const n=t.__vccOpts||t;for(const[i,r]of e)n[i]=r;return n},Lp={},zp={class:"bg-primary md:w-[75vw] md:h-[53.33333vw] w-[100vw] h-[71.111vw] max-h-screen fixed left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden"};function Gp(t,e){const n=hi("RouterView");return Se(),Be("section",zp,[W(n)])}const Vp=pi(Lp,[["render",Gp]]);/*!
   * vue-router v4.1.6
   * (c) 2022 Eduardo San Martin Morote
   * @license MIT
